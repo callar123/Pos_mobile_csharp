@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="todaysvideo.MainPage">
+    <StackLayout BackgroundColor="#F0F0F0" Padding="20">
+        <Frame BackgroundColor="#007BFF" Padding="20" Margin="0,20,0,20">
+            <Label Text="sign up" FontSize="Large" HorizontalOptions="Center" TextColor="White"/>
+        </Frame>
+        <Label x:Name="Id" IsVisible="False" Margin="0,0,0,10"/>
+        <Entry Placeholder="Enter Full username" x:Name="usernameEntry" Margin="0,0,0,10" BackgroundColor="#FFFFFF" HeightRequest="40"/>
+        <Entry Placeholder="Enter Your password" x:Name="passEntry" Margin="0,0,0,10" IsPassword="True" BackgroundColor="#FFFFFF" HeightRequest="40"/>
+        <Entry Placeholder="Confirm Your password" x:Name="conEntry" Margin="0,0,0,10" IsPassword="True" BackgroundColor="#FFFFFF" HeightRequest="40"/>
+
+        <Button x:Name="ButtonCancel" Text="Register" Clicked="ButtonSave_Clicked" HorizontalOptions="FillAndExpand" BackgroundColor="#4CAF50" TextColor="White" Margin="0,0,0,10"/>
+        <Button x:Name="back" Text="Back" Clicked="back_Clicked" HorizontalOptions="FillAndExpand" BackgroundColor="#FF5722" TextColor="White" Margin="0,0,0,10"/>
+    </StackLayout>
+</ContentPage>

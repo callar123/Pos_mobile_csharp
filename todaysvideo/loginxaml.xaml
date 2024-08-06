@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="todaysvideo.loginxaml">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Entry Placeholder="Username" x:Name="usernameEntry" BackgroundColor="#F0F0F0" HeightRequest="40" Margin="0,0,0,10"/>
+            <Entry Placeholder="Password" x:Name="passEntry" IsPassword="True" BackgroundColor="#F0F0F0" HeightRequest="40" Margin="0,0,0,10"/>
+            <Button Text="Login" Clicked="Button_Clicked" BackgroundColor="#007BFF" TextColor="White" CornerRadius="5" Margin="0,0,0,10"/>
+            <Button Text="Sign Up" Clicked="Button_Clicked_1" BackgroundColor="#007BFF" TextColor="White" CornerRadius="5"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
